@@ -5955,12 +5955,11 @@ header .container {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   padding: 0px;
 }
-.navbar a.navbar-brand {
+.navbar img {
   margin: 0px 0;
   padding: 0px;
   overflow: hidden;
-  width: 315px;
-  height: 90px;
+  max-width: 50%;
 }
 .navbar a.navbar-brand img {
   float: left;
@@ -6384,7 +6383,7 @@ section.features_teasers_wrapper .feature_teaser h3 {
   text-transform: uppercase;
 }
 .section_header.skincolored {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 32px;
   text-align: left;
   text-transform: none;
