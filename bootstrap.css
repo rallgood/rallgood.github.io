@@ -40,7 +40,7 @@ body {
 
 .block-ide {
   background: url('images/Mac2.jpg');
-  background-size: 1280px 680px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
 }
