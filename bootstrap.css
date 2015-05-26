@@ -234,15 +234,15 @@ text {
   	position: absolute;
   	top: 100px;
   	color: #4B5062;
-  	font-size: 2em;
+  	font-size: 1.7em;
   	width: 75%;
   	font-family: 'Playfair Display SC', serif;
   }
   .block-blog h3 {
   	position: absolute;
-  	top: 440px;
+  	top: 450px;
   	color: #4B5062;
-  	font-size: 2em;
+  	font-size: 1.7em;
   	width: 75%;
   	font-family: 'Playfair Display SC', serif;
   	font-style: none !important;
