@@ -170,8 +170,28 @@ li a {
   margin-top: 10px;
 }
 
-img-display {
-  width: 100%;
+.variable-width {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.img-display {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 435px;
+  width: auto;
+}
+
+.img-solo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #777;
 }
 
 text {
