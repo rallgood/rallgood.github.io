@@ -59,15 +59,18 @@
 	<div class="displayblock">
 		<div class="container">
 			<h2>IDENTITY</h2>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="au.html"><img src="images/AU1.png" class="img-responsive"/></a>
+			<div class="slider">
+				<div>
+					<a href="sa.html"><img src="images/SA1.png" class="img-display"/></a>				
 				</div>
-				<div class="col-md-4">
-					<a href="sa.html"><img src="images/SA1.png" class="img-responsive"/></a>				
+				<div>
+					<a href="ekc.html"><img src="images/EKC1.png" class="img-display"/></a>
 				</div>
-				<div class="col-md-4">
-					<a href="ekc.html"><img src="images/EKC1.png" class="img-responsive"/></a>
+				<div>
+					<a href="au.html"><img src="images/AU1.png" class="img-display"/></a>
+				</div>
+				<div>
+					<a href="dhc.html"><img src="images/dhc.png" class="img-display"/></a>
 				</div>
 			</div>
 		</div>
@@ -92,6 +95,18 @@
   			variableWidth: true
 		});
   	});
+
+	$(document).ready(function(){
+    	$('.slider').slick({
+  			dots: true,
+  			infinite: true,
+  			speed: 300,
+  			slidesToShow: 1,
+  			centerMode: true,
+  			variableWidth: true
+		});
+  	});
+
 </script>
 
 </body>
