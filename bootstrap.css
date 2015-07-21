@@ -169,65 +169,15 @@ li a {
 text {
   font-family: 'Libre Baskerville', serif;
 }
-
-@media (max-width: 767px) {
-  .block-ide {
-  	background: white;
-  	background-size: 100% auto;
-  	background-repeat: no-repeat;
-  	width: 100%;
-  	height: 250px;
-  }
-  .block-ide h2 {
-  	color: white;
-  	padding: 10px;
-  	text-align: right;
-  	position: absolute;
-  	top: 100px;
-  	right: 20px;
-  	text-align: right !important;
-  	line-height: 1.7;
-  	font-size: 1.2em;
-  	background-color:rgba(64,201,186,0.8);
-  	border-radius: 10px;
-  	font-style: italic;
-  }
-  .displayblock {
-  	position: relative;
-  	width: 100%;
-  	height: 800px;
-  	color: white;
-  	padding-top: 10px;
-  	padding-bottom: 10px;
-  }
-  .displayblock img {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .block-black {  
-  	position: relative;
-  	margin: 0;
-  	width: 100%;
- 	height: 720px;
-  	background: #1C1C1C;
-  	color: white;
-  	padding-top: 20px;
-  	padding-bottom: 20px;
-  }
-  .block-black .img-circle {
-  	padding-top: 20px;
-  }
-  .block-black img {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media (max-width: 1170px) {
    .block-ide h2 {
      font-size: 30px;
      top: 350px;
      right: 100px;
+   }
+   .displayblock {
+  	 padding-top: 40px;
+  	 padding-bottom: 40px;
    }
 }
 @media (max-width: 1020px) {
@@ -235,6 +185,14 @@ text {
      font-size: 30px;
      top: 300px;
      right: 75px;
+   }
+   .displayblock {
+  	 height: 350px;
+  	 padding-top: 40px;
+  	 padding-bottom: 40px;
+   }
+   .scrollblock {
+     height: 500px;
    }
 }
 @media (max-width: 930px) {
@@ -250,6 +208,55 @@ text {
      top: 250px;
      right: 50px;
    }
+}
+
+@media (max-width: 600px) {
+  .block-ide {
+  	background: white;
+  	background-size: 100% auto;
+  	background-repeat: no-repeat;
+  	width: 100%;
+  	height: 250px;
+  }
+  .block-ide h2 {
+  	width: 80%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 100px;
+  	line-height: 1.7;
+  	font-size: 1.2em;
+  	border-radius: 10px;
+  	font-style: italic;
+  	text-align: center !important;
+  	top: initial;
+  }
+  .displayblock {
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  }
+  .displayblock img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #ill {
+    height: 750px;
+  }
+  .block-black {  
+  	position: relative;
+  	margin: 0;
+  	width: 100%;
+ 	height: 720px;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  }
+  .block-black .img-circle {
+  	padding-top: 20px;
+  }
+  .block-black img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .menu-wrapper {
