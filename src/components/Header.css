@@ -1,0 +1,8 @@
+.container.header {
+    padding-top: 2rem;
+}
+
+.header a {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}

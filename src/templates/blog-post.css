@@ -1,0 +1,9 @@
+.description-container {
+    padding: 20px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.description-container h1 {
+    font-size: 32px;
+}
