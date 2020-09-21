@@ -1,7 +1,6 @@
 const path = require(`path`)
 
 module.exports = {
-  pathPrefix: "rallgood.github.io",
   siteMetadata: {
     title: "Rob Allgood | Design",
     author: "Rob Allgood",
