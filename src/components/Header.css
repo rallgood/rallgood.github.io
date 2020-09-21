@@ -1,0 +1,9 @@
+.container.header {
+    padding-top: 2rem;
+}
+
+.header a {
+    font-family: lust-display, serif;
+    font-weight: 400;
+    font-size: 20px;
+}
